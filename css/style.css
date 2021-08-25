@@ -627,13 +627,14 @@ html {
 ::-webkit-scrollbar{
     width: 9px;
     height: 9px;
+    transition: 1s;
     }
     ::-webkit-scrollbar-thumb{
-    background: linear-gradient(150deg,#b8ebff 20%, #FFA201 0%);
+    background: linear-gradient(150deg,#b8ebffb9 20%, #FFA201 0%);
     border-radius: 0px;
     }
     ::-webkit-scrollbar-thumb:hover{
-    background: #B3AFB3;
+    background: linear-gradient(150deg,#b8ebff 70%, #ffa201bb 0%);
     }
     ::-webkit-scrollbar-track{
     background: #3EBFFF;
