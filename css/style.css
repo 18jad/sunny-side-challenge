@@ -602,6 +602,14 @@ img{
     .navbar_items ul li{
         font-weight: bold;
     }
+    .copyright{
+        font-size: 12px;
+    }
+    .navbar-nav .nav_btn{
+        width: 80vw;
+        border-radius: 30px;
+        background: orange;
+    }
 }
 
 .scroll_to_top{
@@ -619,6 +627,10 @@ img{
     transition: 1s;
 }
 
+.github_pulse{
+    right: .5px;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -631,13 +643,16 @@ html {
     }
     ::-webkit-scrollbar-thumb{
     background: linear-gradient(150deg,#b8ebffb9 20%, #FFA201 0%);
-    border-radius: 0px;
+    transition: 1s;
+    border-radius: 30px;
     }
     ::-webkit-scrollbar-thumb:hover{
+    transition: 1s;
+
     background: linear-gradient(150deg,#b8ebff 70%, #ffa201bb 0%);
     }
     ::-webkit-scrollbar-track{
     background: #3EBFFF;
-    border-radius: 0px;
+    border-radius: 30px;
     box-shadow: inset 0px 0px 0px 0px #F0F0F0;
     }
