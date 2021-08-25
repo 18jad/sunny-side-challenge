@@ -623,3 +623,20 @@ img{
 html {
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+    width: 9px;
+    height: 9px;
+    }
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(150deg,#b8ebff 20%, #FFA201 0%);
+    border-radius: 0px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    background: #B3AFB3;
+    }
+    ::-webkit-scrollbar-track{
+    background: #3EBFFF;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+    }
